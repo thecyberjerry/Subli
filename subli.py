@@ -37,7 +37,7 @@ Please keep in mind the following points before using this Script:
 """)
 if __name__ == '__main__':
 
-    var2 = "hackerone.com"
+    var2 = input('Enter your target: ')
 
     with open('list.txt','r') as file:
         var = file.read()
