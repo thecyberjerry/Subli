@@ -6,7 +6,6 @@ def subli(x,y):
     for item in y:
         url = f"https://{item}.{x}"
         try:
-            print(Fore.YELLOW,url,Fore.GREEN)
             requests.get(url,timeout=10)
             print(Fore.RED +'[Working]-->',Fore.RESET,f'{url}',Fore.GREEN)
         except requests.ConnectionError:
