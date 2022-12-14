@@ -3,8 +3,8 @@
 Please keep in mind the following points before using this Script:
 
 1. Please use the default list.txt provided in our Github Repository or refer to:
-                
- https://github.com/danielmiessler/SecLists
+                 
+       https://github.com/danielmiessler/SecLists
                 
 2. If using list other than default provided than paste the txt file in this python file directory renaming file to list.txt.
 
