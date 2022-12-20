@@ -26,8 +26,9 @@ print(Fore.GREEN,f'\n{var3}')
 if __name__ == '__main__':
 
     var2 = input(Fore.CYAN+'Enter your target: ')
-
-    with open('list.txt','r') as file:
+    
+    path = input(Fore.BLUE + 'Enter File Path: ' + Fore.RESET)
+    with open(f'{path}', 'r') as file:
         var = file.read()
         sub_dom = var.splitlines()
     print(subli(var2, sub_dom))
