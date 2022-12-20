@@ -12,7 +12,6 @@ Please keep in mind the following points before using this Script:
 
 4. Last but not least it will only find subdomains available on https connection.
 
-
 **USAGE**
 1. Type git clone https://github.com/thecyberjerry/Subli.git
 2. cd Subli/
