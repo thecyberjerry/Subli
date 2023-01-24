@@ -1,28 +1,36 @@
-******************NOTE FROM DEVELOPER  [MUST READ]******************
+********************Notes from Developer[Must Read]********************
 
-Please keep in mind the following points before using this Script:
+1. This is a simple Subdomain Bruteforcer or Fuzzer tool.
+2. It is based on the same logic that our DIRFU Tool is made.
+3. We did some fine changes to the logical code of DIRFU and produced this Bruteforcer.
+4. It will provide you with Subdomain fuzzing output.
+5. Give it a path to wordlist and it will enumerate Subdomains for you.
+6. Please provide [-d] input in the form of : example.com,google.com,bing.com.
+7. Please provide [-f] input in the form of : /path/to/file/file.txt
 
-1. Please use the default list.txt provided in our Github Repository or refer to:
-                 
-       https://github.com/danielmiessler/SecLists
-                
-2. If using list other than default provided than paste the txt file in this python file directory renaming file to list.txt.
+For more Fine Result refer to:
 
-3. Please Enter the Target in the provided format. For example: google.com,bing.com,target.com
-
-4. Last but not least it will only find subdomains available on https connection.
+https://github.com/projectdiscovery/subfinder
+https://github.com/OWASP/Amass
 
 **USAGE**
 1. Type git clone https://github.com/thecyberjerry/Subli.git
 2. cd Subli/
 3. pip install -r requirements.txt 
-4. python3 Subli.py
-5. Enter your target domain in the accurate format for the python script. Correct Format of writing is mentioned above in NOTE FROM DEVELOPER SECTION.
-6. You will get the list of working subdomains of your desired target.
-7. Feel free to do good updates and ping me for any help at
+4. `python3 Subli.py -d example.com -f /file.txt`
+
 
 E-mail: himanshusharma2719@gmail.com
 
 Reference: geeksforgeeks
 
 IG: thecyberjerry
+
+
+Legal Notice: 
+
+We are not responsible for any illegal activity involving this python script, Please do not use this tool for any illegitimate
+excersise like recoding this tool for DOS and Bruteforcing attack.
+Feel free to do any good update and change to script but remember to ping the developer.
+
+Happy Hacking!!
