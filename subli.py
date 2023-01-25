@@ -29,8 +29,8 @@ def subli(x, y):
     print(Fore.CYAN, '\n********Scanning Finished********', Fore.GREEN)
 
 parser=argparse.ArgumentParser(
-    usage= '''dirfu.py -d example.com -f /path/to/file.txt''',
-    description='''DirFU a Directory Bruteforcer for beginners''',
+    usage= '''subli.py -d example.com -f /path/to/file.txt''',
+    description='''Subli a Subdomain Bruteforcer for beginners''',
     epilog="""Developer: @instagram.com/thecyberjerry""")
 parser.add_argument('-d', '--domain', required=True, help='-d example.com')
 parser.add_argument('-f', '--file', required=True, help='-f /path/to/file/file.txt')
