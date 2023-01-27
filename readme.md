@@ -21,11 +21,7 @@ https://github.com/OWASP/Amass
 
 
 E-mail: himanshusharma2719@gmail.com
-
-Reference: geeksforgeeks
-
 IG: thecyberjerry
-
 
 Legal Notice: 
 
